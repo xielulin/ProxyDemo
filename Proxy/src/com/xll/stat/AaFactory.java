@@ -8,6 +8,6 @@ package com.xll.stat;
 public class AaFactory implements ManFactory{
     @Override
     public void saleTools(int size) {
-        System.out.println("生产了一个size为:"+size+"的商品");
+        System.out.println("生产了一个size为"+size+"的商品");
     }
 }

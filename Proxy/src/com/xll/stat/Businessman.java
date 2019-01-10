@@ -6,7 +6,7 @@ package com.xll.stat;
  * @desc 代理人
  **/
 public class Businessman implements ManFactory{
-    public ManFactory factory;
+    private ManFactory factory;
 
     public Businessman(ManFactory factory){
         super();
