@@ -7,10 +7,10 @@ import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
+ * @description 代理类
  * @author xielulin
- * @create 2019-01-10 11:24
- * @desc 代理公司
- **/
+ * @date 2019/1/10
+ */
 public class BusinessCompany implements InvocationHandler {
     private Object factory;
 
@@ -24,10 +24,6 @@ public class BusinessCompany implements InvocationHandler {
 
     public Object getProxyInstance(){
         return Proxy.newProxyInstance(factory.getClass().getClassLoader(),factory.getClass().getInterfaces(),this);
-    }
-
-    public Object getFactory() {
-        return factory;
     }
 
     public void setFactory(Object factory) {
