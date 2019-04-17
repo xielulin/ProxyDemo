@@ -1,10 +1,10 @@
 package com.xll.proxy.test;
 
-import com.xll.proxy.factory.BbFactory;
-import com.xll.proxy.dynamic.BusinessCompany;
+import com.xll.proxy.factory.WomanFactoryImpl;
+import com.xll.proxy.dynamicProxy.BusinessCompany;
 import com.xll.proxy.factory.WomanFactory;
-import com.xll.proxy.factory.AaFactory;
-import com.xll.proxy.stat.Businessman;
+import com.xll.proxy.factory.ManFactoryImlp;
+import com.xll.proxy.staticProxy.Businessman;
 import com.xll.proxy.factory.ManFactory;
 
 /**
@@ -21,12 +21,13 @@ public class Test {
 
     private static void testDynamicProxy() {
         System.out.println("***********动态代理开始***************");
-        ManFactory manFactory = new AaFactory();
-        WomanFactory womanFactory = new BbFactory();
+        ManFactory manFactory = new ManFactoryImlp();
+        WomanFactory womanFactory = new WomanFactoryImpl();
         BusinessCompany company = new BusinessCompany();
         company.setFactory(manFactory);
         ManFactory f1 = (ManFactory) company.getProxyInstance();
         f1.saleTools(30);
+        f1.buyTools(50);
         company.setFactory(womanFactory);
         WomanFactory f2 = (WomanFactory) company.getProxyInstance();
         f2.saleTools(100);
@@ -36,7 +37,7 @@ public class Test {
 
     private static void testStaticProxy() {
         System.out.println("***********静态代理开始***************");
-        ManFactory factory = new AaFactory();
+        ManFactory factory = new ManFactoryImlp();
         Businessman businessman = new Businessman(factory);
         businessman.saleTools(20);
         System.out.println("***********静态代理结束***************");

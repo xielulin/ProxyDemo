@@ -1,4 +1,4 @@
-package com.xll.proxy.stat;
+package com.xll.proxy.staticProxy;
 
 import com.xll.proxy.factory.ManFactory;
 
@@ -21,6 +21,13 @@ public class Businessman implements ManFactory {
         factory.saleTools(size);
         doSomethingAfter();
 
+    }
+
+    @Override
+    public void buyTools(int size) {
+        doSomethingBefore();
+        factory.buyTools(size);
+        doSomethingAfter();
     }
 
     private void doSomethingBefore() {

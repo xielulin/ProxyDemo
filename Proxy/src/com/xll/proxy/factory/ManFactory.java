@@ -6,4 +6,6 @@ package com.xll.proxy.factory;
  **/
 public interface ManFactory {
     void saleTools(int size);
+
+    void buyTools(int size);
 }
