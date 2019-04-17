@@ -1,11 +1,13 @@
 package com.xll.proxy.stat;
 
+import com.xll.proxy.factory.ManFactory;
+
 /**
  * @author xielulin
  * @create 2019-01-10 11:24
  * @desc 代理人
  **/
-public class Businessman implements ManFactory{
+public class Businessman implements ManFactory {
     private ManFactory factory;
 
     public Businessman(ManFactory factory){

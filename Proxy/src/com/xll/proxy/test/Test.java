@@ -1,11 +1,11 @@
 package com.xll.proxy.test;
 
-import com.xll.proxy.dynamic.BbFactory;
+import com.xll.proxy.factory.BbFactory;
 import com.xll.proxy.dynamic.BusinessCompany;
-import com.xll.proxy.dynamic.WomanFactory;
-import com.xll.proxy.stat.AaFactory;
+import com.xll.proxy.factory.WomanFactory;
+import com.xll.proxy.factory.AaFactory;
 import com.xll.proxy.stat.Businessman;
-import com.xll.proxy.stat.ManFactory;
+import com.xll.proxy.factory.ManFactory;
 
 /**
  * @author xielulin
