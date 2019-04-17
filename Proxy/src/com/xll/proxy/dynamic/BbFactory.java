@@ -1,4 +1,4 @@
-package com.xll.dynamic;
+package com.xll.proxy.dynamic;
 
 /**
  * @author xielulin

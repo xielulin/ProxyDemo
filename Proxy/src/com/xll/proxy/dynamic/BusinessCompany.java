@@ -1,4 +1,4 @@
-package com.xll.dynamic;
+package com.xll.proxy.dynamic;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

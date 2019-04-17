@@ -1,4 +1,4 @@
-package com.xll.stat;
+package com.xll.proxy.stat;
 
 /**
  * @author xielulin

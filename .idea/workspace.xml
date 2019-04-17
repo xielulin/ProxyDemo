@@ -3,15 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="6f9bf82e-3f67-439c-a54f-0ec1ca091085" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BbFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BbFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BusinessCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BusinessCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/singleton/Singleton7.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/singleton/Singleton7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/stat/AaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/stat/AaFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BbFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BbFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BusinessCompany.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BusinessCompany.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/stat/AaFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proxy/com/xll/stat/AaFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Proxy/com/xll/test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BbFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/BbFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BusinessCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/BusinessCompany.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/WomanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/WomanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/stat/AaFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/proxy/stat/AaFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/stat/Businessman.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/proxy/stat/Businessman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/stat/ManFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/proxy/stat/ManFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Proxy/src/com/xll/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/Proxy/src/com/xll/proxy/test/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BbFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BusinessCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/WomanFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/stat/AaFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/stat/Businessman.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/stat/ManFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Proxy/com/xll/test/Test.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,36 +31,39 @@
     <session id="274182717">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="25" />
+          <entry key="class" value="3" />
+          <entry key="java" value="31" />
           <entry key="uml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="24" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="30" />
           <entry key="Scratch" value="1" />
           <entry key="UML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1268" />
+          <entry key="java" value="1736" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1268" />
+          <entry key="JAVA" value="1736" />
         </counts>
       </usages-collector>
     </session>
@@ -63,68 +71,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/dynamic/WomanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/singleton/Singleton1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/stat/AaFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="e#189#190#0" expanded="true" />
-                <element signature="e#250#251#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/test/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/stat/Businessman.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/stat/ManFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BbFactory.java">
+        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/BbFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
               <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
@@ -133,9 +80,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BusinessCompany.java">
+        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/BusinessCompany.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="165">
               <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -145,23 +92,53 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/test/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2040">
-              <caret line="173" column="52" selection-start-line="173" selection-start-column="52" selection-end-line="173" selection-end-column="52" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
               <folding>
-                <element signature="e#7284#7285#0" expanded="true" />
-                <element signature="e#7312#7313#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/consumer/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#284#285#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/Comparator.java">
+        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/consumer/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6540">
-              <caret line="468" column="56" selection-start-line="468" selection-start-column="47" selection-end-line="468" selection-end-column="56" />
+            <state relative-caret-position="446">
+              <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#298#299#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/consumer/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -218,6 +195,11 @@
         <option value="$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BbFactory.java" />
         <option value="$PROJECT_DIR$/Proxy/src/com/xll/stat/AaFactory.java" />
         <option value="$PROJECT_DIR$/Proxy/src/com/xll/test/Test.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/test/Test.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/com/xll/proxy/test/Test.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/com/xll/consumer/Test.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/com/xll/consumer/Producer.java" />
+        <option value="$PROJECT_DIR$/Proxy/src/com/xll/consumer/Consumer.java" />
       </list>
     </option>
   </component>
@@ -320,7 +302,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -329,16 +310,43 @@
               <item name="ProxyDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="ProxyDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ProxyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProxyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProxyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProxyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProxyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProxyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProxyDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProxyDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="Proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="xll" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551766717076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555469432223" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -366,13 +374,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.xll.test.Test" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.consumer.Test" />
       <module name="Proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xll.test.*" />
+          <option name="PATTERN" value="com.xll.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,8 +388,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.xll.proxy.dynamic.test.Test" />
+      <module name="Proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xll.proxy.dynamic.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
@@ -400,18 +426,20 @@
       <workItem from="1547091981079" duration="8693000" />
       <workItem from="1551668506332" duration="1770000" />
       <workItem from="1551766812950" duration="208000" />
-      <workItem from="1551769803992" duration="938000" />
+      <workItem from="1551769803992" duration="1523000" />
+      <workItem from="1552381572697" duration="397000" />
+      <workItem from="1555467997914" duration="1367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13654000" />
+    <option name="totallyTimeSpent" value="16003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12589413" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2453505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -420,23 +448,23 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.22180916" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5007153" side_tool="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32961586" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.072961375" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
@@ -526,16 +554,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/dynamic/WomanFactory.java">
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/WomanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/stat/AaFactory.java">
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/stat/AaFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="150">
           <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
           <folding>
             <element signature="e#189#190#0" expanded="true" />
@@ -544,44 +572,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/test/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/stat/Businessman.java">
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/stat/Businessman.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/stat/ManFactory.java">
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/stat/ManFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BbFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/dynamic/BusinessCompany.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -605,8 +606,96 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/singleton/Singleton1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/WomanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BusinessCompany.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1035#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Proxy/com/xll/dynamic/BbFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/BbFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/dynamic/BusinessCompany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/proxy/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/consumer/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/consumer/Producer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="35" column="54" selection-start-line="35" selection-start-column="54" selection-end-line="35" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#298#299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Proxy/src/com/xll/consumer/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
