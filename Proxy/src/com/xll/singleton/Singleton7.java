@@ -1,6 +1,5 @@
 package com.xll.singleton;
 
-import java.util.Collections;
 
 /**
  * @author xielulin
