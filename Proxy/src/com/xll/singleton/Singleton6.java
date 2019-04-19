@@ -6,14 +6,16 @@ package com.xll.singleton;
  * @desc 双重检查（线程安全）推荐使用
  **/
 public class Singleton6 {
-    private static Singleton6  INSTANCE;
+    private static Singleton6 INSTANCE;
 
-    private Singleton6(){}
+    private Singleton6() {
+    }
 
-    public static Singleton6 getInstance(){
-        if(INSTANCE == null){
-            synchronized (Singleton6.class){
-                if(INSTANCE == null){}
+    public static Singleton6 getInstance() {
+        if (INSTANCE == null) {
+            synchronized (Singleton6.class) {
+                if (INSTANCE == null) {
+                }
                 INSTANCE = new Singleton6();
             }
         }

@@ -8,10 +8,11 @@ package com.xll.singleton;
 public class Singleton4 {
     private static Singleton4 INSTANCE;
 
-    private Singleton4(){}
+    private Singleton4() {
+    }
 
-    public static synchronized Singleton4 getInstance(){
-        if(INSTANCE == null){
+    public static synchronized Singleton4 getInstance() {
+        if (INSTANCE == null) {
             INSTANCE = new Singleton4();
         }
         return INSTANCE;
