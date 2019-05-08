@@ -5,7 +5,7 @@ package com.xll.test;
  * @create 2019-04-23 09:20
  * @desc
  **/
-public class Man {
+public class Test1 {
     private String Name;
 
     public String getName() {
@@ -32,7 +32,7 @@ public class Man {
     }
 
     public static void main(String[] args) {
-        Man man = new Man();
+        Test1 man = new Test1();
         man.setName("张三");
         int num = man.getNum(true);
         System.out.println(man.getName()+"需要买"+num + "个包子");
